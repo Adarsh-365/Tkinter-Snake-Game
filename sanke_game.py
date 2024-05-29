@@ -122,7 +122,7 @@ class SnakeID:
             self.self_bite()
             self.does_food_it()
             self.out_of_bound()
-            self.can.after(100,self.Move)
+            self.can.after(100,self.Move) #Edit 100 for speed
         
         
 class SnakeGame:
