@@ -1,7 +1,7 @@
 from tkinter import *
 
 root=Tk()
-root.title("Ssss")
+root.title("Snake Game")
 root.geometry("500x500")
 root.resizable(0,0)
 import random
